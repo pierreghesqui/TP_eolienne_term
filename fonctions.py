@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 def importationMesures(nomDeTonFichierTexte):
     #nomDeTonFichierTexte = Path(nomDeTonFichierTexte)
     nomDeTonFichierTexte =nomDeTonFichierTexte.replace("\\" , "/")
-    with open(nomDeTonFichierTexte, 'r') as file:
+    with open(nomDeTonFichierTexte, 'r',encoding="ISO-8859-1") as file:
         data = file.read()
         txt = data.replace(',', '.')
-    with open('fichier2.txt','w') as file:
+    with open('fichier2.txt','w',encoding="ISO-8859-1") as file:
         file.write(txt)
     file.close()
     t, x, y = np.loadtxt('fichier2.txt',delimiter='\t',skiprows=3, unpack=True)
