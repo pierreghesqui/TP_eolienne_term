@@ -21,7 +21,7 @@ def filtrage(vx,filtrageSize = 5) :
     return np.correlate(vx, vecteurMoyenne1, "same")
 
 
-def affichageVecteurs(x,y,vx,vy,ax,ay,filtrageSize = 5):
+def affichage(x,y,vx,vy,ax,ay,t,v,filtrageSize = 5):
     img = cv2.imread('img_eol.png')
     nbL =img.shape[0]
     nbC = img.shape[1]
@@ -61,11 +61,10 @@ def affichageVecteurs(x,y,vx,vy,ax,ay,filtrageSize = 5):
     
     resized = img[:,400:900]
     #cv2.resize(img, (int(nbC/2),int(nbL/2)), interpolation = cv2.INTER_AREA)
-    plt.figure(figsize=(16,10))
+    plt.figure(num = 1, figsize=(16,10))
     plt.imshow(resized)
     plt.show()
     
-    '''
     vmoy = np.mean(v[6:len(v)])
     plt.figure(num = 2)
     plt.plot(t[6:-1],v[6:len(v)],label='v')
@@ -75,7 +74,7 @@ def affichageVecteurs(x,y,vx,vy,ax,ay,filtrageSize = 5):
     plt.ylabel("vitesse (m/s)")
     plt.legend()
     plt.show()
-    '''
+    
 def metersToPixel(v,pixelSize):
     pix = v/pixelSize
     return pix
