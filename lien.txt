@@ -1,0 +1,1 @@
+https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/TP_%C3%A9olienne_term-Prof.ipynb&module=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/fonctions.py&aux=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/img_eol.png

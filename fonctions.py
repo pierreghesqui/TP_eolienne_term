@@ -1,11 +1,11 @@
 import numpy as np
 import cv2
-from pathlib import Path
+#from pathlib import Path
 import matplotlib.pyplot as plt
 
 def importationMesures(nomDeTonFichierTexte):
-    nomDeTonFichierTexte = Path(nomDeTonFichierTexte)
-    #nomDeTonFichierTexte =nomDeTonFichierTexte.replace("\\" , "/")
+    #nomDeTonFichierTexte = Path(nomDeTonFichierTexte)
+    nomDeTonFichierTexte =nomDeTonFichierTexte.replace("\\" , "/")
     with open(nomDeTonFichierTexte, 'r') as file:
         data = file.read()
         txt = data.replace(',', '.')
