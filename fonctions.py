@@ -65,6 +65,7 @@ def affichage(x,y,vx,vy,ax,ay,t,v,filtrageSize = 5):
     plt.imshow(resized)
     
     vmoy = np.mean(v[6:len(v)])
+    plt.show()
     plt.figure()
     plt.plot(t[6:-1],v[6:len(v)],label='v')
     plt.plot(t[6:-1],np.ones(len(v)-6)*vmoy,label='vitesse moyenne = '+ str(int(vmoy)) + ' m/s')
