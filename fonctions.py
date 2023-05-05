@@ -21,7 +21,7 @@ def filtrage(vx,filtrageSize = 5) :
     return np.correlate(vx, vecteurMoyenne1, "same")
 
 
-def affichageVecteurs(x,y,vx,vy,ax,ay,t,v,filtrageSize = 5):
+def affichageVecteurs(x,y,vx,vy,ax,ay,filtrageSize = 5):
     img = cv2.imread('img_eol.png')
     nbL =img.shape[0]
     nbC = img.shape[1]
