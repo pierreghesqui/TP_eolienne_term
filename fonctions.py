@@ -12,7 +12,7 @@ def importationMesures(nomDeTonFichierTexte):
     with open('fichier2.txt','w',encoding="ISO-8859-1") as file:
         file.write(txt)
     file.close()
-    t, x, y = np.loadtxt('fichier2.txt',delimiter='\t',skiprows=3, unpack=True)
+    t, x, y = np.loadtxt('fichier2.txt',delimiter='\t',skiprows=3, unpack=True,encoding="ISO-8859-1")
     return t,x,y
 
 def filtrage(vx,filtrageSize = 5) :
