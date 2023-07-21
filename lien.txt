@@ -1,2 +1,5 @@
-Lien élève : https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/TP_%C3%A9olienne_term-Prof.ipynb&module=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/fonctions.py&aux=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/img_eol.png
-Lien élève court : https://tinyurl.com/termjupeol
+Lien élève : https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/TP_%C3%A9olienne_term.ipynb&module=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/fonctions.py&aux=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/img_eol.png
+Lien élève court : https://tinyurl.com/termpyteol
+
+Lien prof : https://notebook.basthon.fr/?from=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/TP_%C3%A9olienne_term-prof2.ipynb&module=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/fonctions.py&aux=https://raw.githubusercontent.com/pierreghesqui/TP_eolienne_term/main/img_eol.png
+Lien prof court : https://tinyurl.com/termpyteolprof
