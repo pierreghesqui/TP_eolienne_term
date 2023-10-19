@@ -61,6 +61,7 @@ def affichage(x,y,vx,vy,ax,ay,t,v,filtrageSize = 5):
     
     resized = img[:,400:900]
     #cv2.resize(img, (int(nbC/2),int(nbL/2)), interpolation = cv2.INTER_AREA)
+    plt.clf()
     plt.figure(num = 1, figsize=(16,10))
     plt.imshow(resized)
     plt.show()
